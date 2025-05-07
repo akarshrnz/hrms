@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hrms/core/constants/app_colors.dart';
 import 'package:hrms/domain/entities/email_draft.dart';
-import 'package:hrms/presentation/bloc/profile/email_bloc.dart';
+import 'package:hrms/presentation/bloc/email/email_bloc.dart';
 
 class EmailScreen extends StatelessWidget {
   const EmailScreen({super.key});

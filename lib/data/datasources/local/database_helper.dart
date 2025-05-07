@@ -19,7 +19,7 @@ class DatabaseHelper {
     String path = join(await getDatabasesPath(), 'hrms.db');
     return await openDatabase(
       path,
-      version: 2, // Incremented version number
+      version: 2, 
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -110,7 +110,7 @@ class DatabaseHelper {
     ''');
   }
 
-  // Add this method to check if table exists
+  
   Future<bool> tableExists(String tableName) async {
     final db = await database;
     final result = await db.rawQuery(

@@ -30,7 +30,7 @@ class NotificationModel {
     );
   }
 
-  // Optionally, add toJson/fromJson methods if needed
+
   Map<String, dynamic> toJson() {
     return {
       'id': id,

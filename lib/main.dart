@@ -7,7 +7,7 @@ import 'data/repositories/leave_repository.dart';
 import 'data/repositories/email_repository.dart';
 import 'presentation/bloc/attendance/attendance_bloc.dart';
 import 'presentation/bloc/leave/leave_bloc.dart';
-import 'presentation/bloc/profile/email_bloc.dart';
+import 'presentation/bloc/email/email_bloc.dart';
 import 'presentation/screens/dashbord/dashboard_screen.dart';
 
 void main() async {
